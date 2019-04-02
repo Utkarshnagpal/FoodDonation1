@@ -1,0 +1,121 @@
+body{
+margin: 0;
+pading: 0;
+}
+.slideshow{
+height: 100vh;
+width: 100vw;
+background: url(food1.jpg);
+background-size:cover;
+animation: slide 24s infinite;
+}
+@keyframes slide{
+z-index:-1000;
+25%{background: url(food2.jpg);
+backgroung-size: cover;}
+50%{background: url(food3.jpg);
+backgroung-size: cover;}
+75%{background: url(food5.jpg);
+backgroung-size: cover;}
+100%{background: url(food6.png);
+backgroung-size: cover;}
+125%{background: url(food7.jpg);
+backgroung-size: cover;}
+}
+.content{
+position: absolute;
+top: 1%;
+color: #fff;
+width: 100%;
+z-index: 0;
+}
+.content h1{
+front-family: fantacy;
+font-size: 3.5em;
+letter-spacing: 1px;
+margin;
+z-index:0;
+}
+
+.content h2{
+font-family: manospace;
+font-size: 2em;
+margin-top: -4%;
+margin_left: 5%;
+z-index:0;
+}
+  
+   nav li input {
+     display: inline-block;
+     border-margin:0%;
+     background-color: #FF3D00;
+     top: 0;
+     padding: 10px;
+     width: 170px;
+     text-decoration: none;
+     color: white;
+     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17), 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+   }
+	.Active:hover
+{
+	background:white;
+	color:black;
+}
+   #nav-icon3 {
+     display: none;
+   }
+   nav {
+     display: block;
+     width: 100%;
+     position: relative;
+     top: 0;
+     left: 0;
+   }
+   nav li {
+     display: inline-block;
+     background-color: none;
+     color: black;
+     text-align: center;
+     vertical-align: middle;
+   }
+   nav ul {
+     text-align-last: center;
+   }
+.food
+{
+	margin-top:5%;
+	margin-left:5px;
+}
+
+.button
+{
+	margin-left:2px;
+        display: inline-block;
+     background-color: #ff3d00;
+     color: white;
+     text-align: center;
+     vertical-align: middle;
+     height: 40px;
+     width: 120px;
+     border: #FF3D00;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17), 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+     
+}
+img
+{
+	width:20%;
+
+}
+
+
+.button:hover
+{
+background: #fff;
+color:black;
+}
+
+.Shubham ul
+{
+z-index: 1000;
+color: white;
+}
